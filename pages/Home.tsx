@@ -1,9 +1,7 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 
 const Home: React.FC = () => {
-  const scrollRef = useRef<HTMLDivElement>(null);
-
   useEffect(() => {
     const observerOptions = {
       threshold: 0.1,

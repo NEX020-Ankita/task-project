@@ -1,11 +1,11 @@
 import React from "react";
-import { HashRouter, Routes, Route, Link, useLocation } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Services from "./pages/Services";
 import Contact from "./pages/Contact";
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
+import Navbar from "./components/NavBar.tsx";
+import Footer from "./components/Footer.tsx";
 
 const App: React.FC = () => {
   return (
